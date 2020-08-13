@@ -1,0 +1,278 @@
+/* Base
+   ========================================================================== */
+
+  body {
+    font-family: Meiryo;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    margin:0;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .leftcol {
+    float: left;
+  }
+
+  .rightcol {
+    float: right;
+  }
+
+  .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+
+  a {
+    color: #009d8e;
+    text-decoration: none;
+    outline: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Header
+     ========================================================================== */
+
+  header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #logo {
+    width: 900px;
+    margin: 0 auto 20px;
+  }
+
+  nav {
+    width: 900px;
+    margin: auto;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    width: 160px;
+    height: 30px;
+    margin-right: 19px;
+    display: inline-block;
+    border-bottom: 5px solid #fff;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  nav ul li:hover {
+    border-bottom: 5px solid #009d8d;
+  }
+
+  nav ul li a {
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+  }
+
+  nav ul li a:hover {
+    text-decoration: none;
+  }
+
+  /* Cover
+     ========================================================================== */
+
+  #cover {
+    height: 330px;
+    background-image: url("images/bg-cover.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #cover #slide {
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  /* Footer
+     ========================================================================== */
+
+  #contact {
+    padding: 30px 0;
+    text-align: center;
+    background-image: url("images/bg-footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .btn {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    background-color: #ffbe00;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  }
+
+  #copyright {
+    padding: 15px 0;
+    text-align: center;
+    color: #ccc;
+    background-color: #333;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+
+  /* Content
+     ========================================================================== */
+
+  #content {
+    width: 900px;
+    margin: 30px auto;
+  }
+
+  aside {
+    float: left;
+    width: 200px;
+  }
+
+  aside section {
+    margin-bottom: 20px;
+  }
+
+  article {
+    float: right;
+    width: 700px;
+  }
+
+  article section {
+    margin-bottom: 40px;
+  }
+
+  article h2 {
+    color: #ffbe00;
+  }
+
+  article h3 {
+    color: #888;
+  }
+
+
+
+  /**
+   * Top-News
+   */
+
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .news-list li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .news-list li .date {
+    width: 85px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+    vertical-align: top;
+  }
+
+  .news-list li .label-info {
+    width: 65px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -3px;
+    background: #009d8e;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 8px;
+    color: #fff;
+    vertical-align: top;
+  }
+
+  .news-list li a {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /**
+   * Top-Button
+   */
+
+  .btn-default {
+    background-color: #fff;
+    color: #009d8e;
+    border: 1px solid #009d8e;
+  }
+
+  /**
+   * Blog
+   */
+
+  .blog-title-index {
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-size: 2em;
+    color: #333;
+  }
+
+  .blog-title-article {
+    margin-bottom: 0px;
+    margin-left: 5px;
+  }
+
+  .blog-wrap {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+  }
+
+  .blog-header {
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+    color: #888;
+    font-size: 13px;
+  }
+
+  .blog-body {
+    padding: 10px 5px;
+  }
+
+  .blog-title-category {
+    font-size: 1.17em;
+    font-weight: normal;
+    color: #888;
+  }
+
+  .blog-footer {
+    padding: 5px;
+  }
