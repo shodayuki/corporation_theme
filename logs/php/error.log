@@ -1,0 +1,8 @@
+[14-Aug-2020 13:34:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php on line 1
+[14-Aug-2020 13:35:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php on line 1
