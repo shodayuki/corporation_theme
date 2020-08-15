@@ -337,3 +337,11 @@ Version: 1.0
   border:1px #cccccc solid;
   text-align:center;
 }
+
+/* Breadcrumb NavXT
+   ========================================================================== */
+
+  .breadcrumbs {
+    width:900px;
+    margin:20px auto;
+  }

@@ -1,4 +1,11 @@
 <?php get_header(); ?>
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+      {
+        bcn_display();
+      }
+    ?>
+</div>
 <div id="content" class="clearfix">
   <aside>
     <?php get_sidebar(); ?>

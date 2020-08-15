@@ -8,7 +8,7 @@
       <h1>Academy Corporationのサイトへようこそ</h1>
       <p>
         Academy Corporationはあなたの生活を便利にする商品やサービスの開発を日々行っています。<br>
-        <a href="#">スタッフブログ</a>では新製品の情報なども公開していますので是非ご覧ください。
+        <a href="<?php echo home_url(); ?>/category/staff">スタッフブログ</a>では新製品の情報なども公開していますので是非ご覧ください。
       </p>
       </section>
       <?php
