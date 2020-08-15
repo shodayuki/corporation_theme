@@ -10,15 +10,17 @@
 <body <?php body_class(); ?>>
   <header>
     <div id="logo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="#">
+      <a href="<?php echo home_url(); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="#">
+      </a>
     </div>
     <nav>
       <ul>
         <li><a href="<?php echo home_url(); ?>">TOP</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="map.html">MAP</a></li>
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
+        <li><a href="<?php echo home_url(); ?>/map">MAP</a></li>
+        <li><a href="<?php echo home_url(); ?>/blog">BLOG</a></li>
+        <li><a href="<?php echo home_url(); ?>/contact">CONTACT</a></li>
       </ul>
     </nav>
   </header>

@@ -283,3 +283,43 @@ Version: 1.0
   .blog-footer {
     padding: 5px;
   }
+
+  /* Widget
+   ========================================================================== */
+
+.widget {
+  padding-right:30px;
+}
+
+.widget h3 {
+  border-left:5px #cccccc solid;
+  border-bottom:1px #cccccc solid;
+  padding-left:10px;
+}
+
+.widget ul {
+  padding:0;
+  list-style:none;
+}
+
+.widget ul li {
+  margin-bottom:5px;
+}
+
+.widget ul li a {
+  color:#333333;
+}
+
+.widget table {
+  border-collapse:collapse;
+}
+
+.widget table caption {
+  font-weight:800;
+}
+
+.widget table thead th ,
+.widget table tbody td {
+  border:1px #cccccc solid;
+  text-align:center;
+}

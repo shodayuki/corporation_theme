@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-11 10:57:24+0000\n"
+"PO-Revision-Date: 2020-08-15 00:46:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3189,7 +3189,7 @@ msgstr "確認済み"
 #: wp-includes/post.php:422 wp-includes/post.php:987
 msgctxt "request status"
 msgid "Pending"
-msgstr "保留中"
+msgstr "承認待ち"
 
 #: wp-includes/comment.php:3602
 msgid "Comment URL"
@@ -5687,7 +5687,7 @@ msgstr "タグクラウドを表示すべきかどうか。"
 #: wp-includes/rest-api/fields/class-wp-rest-meta-fields.php:178
 #: wp-includes/rest-api/endpoints/class-wp-rest-settings-controller.php:197
 msgid "The %s property has an invalid stored value, and cannot be updated to null."
-msgstr "%s 属性が無効な保管値を持っており、NULL に更新できません。"
+msgstr "%s プロパティには無効なストアドバリューがあり、null に更新することはできません。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:194
 msgid "Invalid revision ID."
@@ -8374,7 +8374,7 @@ msgstr "一致する項目の数: %d"
 #: wp-includes/class-wp-customize-nav-menus.php:526
 #: wp-admin/includes/class-walker-nav-menu-edit.php:107
 msgid "%s (Pending)"
-msgstr "%s (保留中)"
+msgstr "%s (レビュー待ち)"
 
 #. translators: %s: Title of an invalid menu item.
 #: wp-includes/class-wp-customize-nav-menus.php:524
@@ -10077,7 +10077,7 @@ msgstr "許容範囲 [1,100] に含まれない値の画質を設定しようと
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:26
 #: wp-includes/js/dist/block-library.js:24132
 msgid "A cloud of your most used tags."
-msgstr "よく使用されているタグの羅列。"
+msgstr "よく使用されているタグのクラウド。"
 
 #: wp-includes/widgets/class-wp-widget-rss.php:26
 msgid "Entries from any RSS or Atom feed."
@@ -10955,7 +10955,7 @@ msgstr "画像を変更"
 #: wp-includes/customize/class-wp-customize-header-image-control.php:140
 #: wp-includes/js/dist/editor.js:8759 wp-includes/js/dist/block-library.js:8176
 msgid "Remove image"
-msgstr "画像の削除"
+msgstr "画像を削除"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:784
 #: wp-admin/comment.php:78
@@ -12933,7 +12933,7 @@ msgstr[0] "非公開 <span class=\"count\">(%s)</span>"
 #: wp-includes/post.php:362 wp-includes/post.php:426
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
-msgstr[0] "保留中 <span class=\"count\">(%s)</span>"
+msgstr[0] "レビュー待ち <span class=\"count\">(%s)</span>"
 
 #. translators: %s: Number of draft posts.
 #: wp-includes/post.php:347
@@ -13145,13 +13145,13 @@ msgstr "選択したユーザーが見つかりません。"
 #: wp-includes/customize/class-wp-customize-date-time-control.php:173
 #: wp-includes/js/dist/components.js:35736
 msgid "PM"
-msgstr "午後"
+msgstr "PM"
 
 #: wp-includes/class-wp-locale.php:193
 #: wp-includes/customize/class-wp-customize-date-time-control.php:172
 #: wp-includes/js/dist/components.js:35731
 msgid "AM"
-msgstr "午前"
+msgstr "AM"
 
 #: wp-includes/class-wp-locale.php:192
 msgid "pm"

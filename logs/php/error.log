@@ -6,3 +6,52 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php on line 1
+[15-Aug-2020 08:41:40 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:41:40 UTC] PHP Stack trace:
+[15-Aug-2020 08:41:40 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:41:40 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:41:40 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:41:40 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 08:42:36 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:42:36 UTC] PHP Stack trace:
+[15-Aug-2020 08:42:36 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:42:36 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:42:36 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:42:36 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 08:47:04 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:47:04 UTC] PHP Stack trace:
+[15-Aug-2020 08:47:04 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:47:04 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:47:04 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:47:04 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 08:48:07 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:48:07 UTC] PHP Stack trace:
+[15-Aug-2020 08:48:07 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:48:07 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:48:07 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:48:07 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 08:48:08 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:48:08 UTC] PHP Stack trace:
+[15-Aug-2020 08:48:08 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:48:08 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:48:08 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:48:08 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 08:48:25 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:48:25 UTC] PHP Stack trace:
+[15-Aug-2020 08:48:25 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:48:25 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:48:25 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:48:25 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 08:48:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_title() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php:9
+Stack trace:
+#0 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php(19): require_once('/Users/shodayuk...')
+#2 /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php(17): require('/Users/shodayuk...')
+#3 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 9
+[15-Aug-2020 08:48:59 UTC] PHP Warning:  Use of undefined constant have_posts - assumed 'have_posts' (this will throw an Error in a future version of PHP) in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/page.php on line 7
+[15-Aug-2020 08:48:59 UTC] PHP Stack trace:
+[15-Aug-2020 08:48:59 UTC] PHP   1. {main}() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:0
+[15-Aug-2020 08:48:59 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
+[15-Aug-2020 08:48:59 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
+[15-Aug-2020 08:48:59 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
