@@ -55,3 +55,17 @@ Stack trace:
 [15-Aug-2020 08:48:59 UTC] PHP   2. require() /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php:17
 [15-Aug-2020 08:48:59 UTC] PHP   3. require_once() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php:19
 [15-Aug-2020 08:48:59 UTC] PHP   4. include() /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php:106
+[15-Aug-2020 12:39:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_poostdata() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php:35
+Stack trace:
+#0 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php(19): require_once('/Users/shodayuk...')
+#2 /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php(17): require('/Users/shodayuk...')
+#3 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php on line 35
+[15-Aug-2020 12:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_poostdata() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php:35
+Stack trace:
+#0 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php(19): require_once('/Users/shodayuk...')
+#2 /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php(17): require('/Users/shodayuk...')
+#3 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php on line 35

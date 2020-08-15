@@ -8,6 +8,7 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div class="wrapper">
   <header>
     <div id="logo">
       <a href="<?php echo home_url(); ?>">
@@ -19,7 +20,7 @@
         <li><a href="<?php echo home_url(); ?>">TOP</a></li>
         <li><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
         <li><a href="<?php echo home_url(); ?>/map">MAP</a></li>
-        <li><a href="<?php echo home_url(); ?>/blog">BLOG</a></li>
+        <li><a href="<?php echo home_url(); ?>/category/staff">BLOG</a></li>
         <li><a href="<?php echo home_url(); ?>/contact">CONTACT</a></li>
       </ul>
     </nav>

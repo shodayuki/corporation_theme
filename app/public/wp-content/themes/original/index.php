@@ -11,29 +11,30 @@
         <a href="#">スタッフブログ</a>では新製品の情報なども公開していますので是非ご覧ください。
       </p>
       </section>
+      <?php
+        $args = array(
+          'category_name' => 'news',
+          'posts_per_page' => 3
+        );
+        $the_query = new WP_Query( $args );
+        if ( $the_query -> have_posts() ):
+      ?>
       <section>
         <h2 class="section-title">NEWS</h2>
         <ul class="news-list">
+          <?php while ( $the_query -> have_posts() ) : $the_query -> the_post(); ?>
           <li>
-            <span class="date">2016.01.15</span>
+            <span class="date"><?php the_time('Y.m.j'); ?></span>
             <span class="label-info">お知らせ</span>
-            <a href="#">新製品「魔法の便利ハサミ」の発表イベントを開催します。</a>
+            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           </li>
-          <li>
-            <span class="date">2016.01.10</span>
-            <span class="label-info">お知らせ</span>
-            <a href="#">沢山のご要望により「らくらく便利シャープペンシル」の新カラーバリエーションを追加しました。</a>
-          </li>
-          <li>
-            <span class="date">2016.01.01</span>
-            <span class="label-info">お知らせ</span>
-            <a href="#">スタッフブログにて社員の年始ご挨拶を掲載しています。</a>
-          </li>
+          <?php endwhile; ?>
         </ul>
-        <div class="center">
-          <a href="#" class="btn btn-default">お知らせ</a>
-        </div>
       </section>
+      <?php
+        wp_reset_postdata();
+        endif;
+      ?>
     </article>
   </div>
 <?php get_footer(); ?>
