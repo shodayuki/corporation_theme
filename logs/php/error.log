@@ -70,3 +70,17 @@ Stack trace:
 #3 {main}
   thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original/index.php on line 35
 [16-Aug-2020 08:24:46 UTC] PHP Parse error:  syntax error, unexpected '3' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original-child/archive.php on line 19
+[16-Aug-2020 13:16:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_pagenavi() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original-child/index.php:40
+Stack trace:
+#0 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php(19): require_once('/Users/shodayuk...')
+#2 /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php(17): require('/Users/shodayuk...')
+#3 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original-child/index.php on line 40
+[16-Aug-2020 13:55:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_pagenavi() in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original-child/archive-event.php:36
+Stack trace:
+#0 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-blog-header.php(19): require_once('/Users/shodayuk...')
+#2 /Users/shodayuki/Local Sites/academy-corporation/app/public/index.php(17): require('/Users/shodayuk...')
+#3 {main}
+  thrown in /Users/shodayuki/Local Sites/academy-corporation/app/public/wp-content/themes/original-child/archive-event.php on line 36
